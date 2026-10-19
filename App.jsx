@@ -118,7 +118,7 @@ function App() {
     <>
       <audio
         ref={audioRef}
-        src="/music/our-song.mp3"
+        src={`${import.meta.env.BASE_URL}music/our-song.mp3`}
         loop
         preload="auto"
         onPlay={() => setIsPlaying(true)}
