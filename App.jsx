@@ -140,7 +140,7 @@ function App() {
             />
           }
         />
-
+        <Route path="/*" element={<Home isPlaying={isPlaying} toggleMusic={toggleMusic} />} />
         <Route path="/letter" element={<Letter />} />
         <Route path="/memories" element={<Memories />} />
         <Route path="/memory1" element={<Memory1 />} />
