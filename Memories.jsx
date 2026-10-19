@@ -27,30 +27,30 @@ function Memories() {
       
 <div className="memories-gallery">
   <div className="memories-photo">
-    <img src="/images/memory3.jpg" alt="Our favourite memory" />
+    src={`${import.meta.env.BASE_URL}images/memory3.jpg`}
     <p>My favourite moment ♡</p>
   </div>
 
   <div className="memories-photo">
-    <img src="/images/memory2.jpg" alt="A happy memory together" />
+    src={`${import.meta.env.BASE_URL}images/memory2.jpg`}
     <p>Us being us ♥</p>
   </div>
 
   <div className="memories-photo">
-    <img src="/images/memory1.jpg" alt="A special moment together" />
+    src={`${import.meta.env.BASE_URL}images/memory1.jpg`}
     <p>A memory to keep ♡</p>
   </div>
   <div className="memories-photo">
-  <img src="/images/memory4.jpg" alt="Another special memory together" />
+src={`${import.meta.env.BASE_URL}images/memory4.jpg`}
   <p>One more beautiful memory ♡</p>
 </div>
 
 <div className="memories-photo">
-  <img src="/images/memory5.jpg" alt="A moment close to my heart" />
+src={`${import.meta.env.BASE_URL}images/memory5.jpg`}
   <p>Forever my favourite person ♥</p>
 </div>
 <div className="memories-photo">
-  <img src="/images/memory6.jpg" alt="A moment close to my heart" />
+ src={`${import.meta.env.BASE_URL}images/memory6.jpg`}
   <p> My Forever and Always ♥</p>
 </div>
 </div>
