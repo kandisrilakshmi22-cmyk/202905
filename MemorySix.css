@@ -1,0 +1,169 @@
+
+.memory-six-page {
+  min-height: 100vh;
+  padding: 45px 20px;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #fff1f5, #f4dce5, #ead0dc);
+  color: #70213b;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.memory-six-label {
+  margin-bottom: 12px;
+  color: #a04b69;
+  font-size: 0.85rem;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.memory-six-page h1 {
+  max-width: 850px;
+  margin: 0 auto 30px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  line-height: 1.25;
+}
+
+.memory-six-card {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 22px;
+  box-sizing: border-box;
+  background: #fffaf9;
+  border: 1px solid #e6bfcd;
+  border-radius: 24px;
+  box-shadow: 0 12px 35px rgba(91, 25, 52, 0.12);
+  overflow: hidden;
+}
+
+.memory-six-photo-frame {
+  width: 100%;
+  margin: 0 auto 25px;
+}
+
+.memory-six-photo-frame img {
+  display: block;
+  width: 70%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 6px;
+  box-sizing: border-box;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 5px 18px rgba(91, 25, 52, 0.12);
+}
+
+.memory-six-story {
+  color: #654650;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.08rem;
+  line-height: 1.9;
+  text-align: left;
+}
+
+.memory-six-story p {
+  margin: 0 0 20px;
+}
+
+.memory-six-love-note {
+  margin: 28px 0 5px;
+  color: #B76E79;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 1.8;
+}
+
+.memory-six-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+
+.memory-six-button {
+  padding: 13px 26px;
+  border: none;
+  border-radius: 30px;
+  background: #782340;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+
+.memory-six-button:hover {
+  background: #9b3658;
+  transform: translateY(-3px);
+}
+
+@keyframes memorySixEntrance {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.memory-six-label,
+.memory-six-page h1,
+.memory-six-card,
+.memory-six-buttons {
+  animation: memorySixEntrance 0.8s ease-out both;
+}
+
+.memory-six-page h1 {
+  animation-delay: 0.15s;
+}
+
+.memory-six-card {
+  animation-delay: 0.3s;
+}
+
+.memory-six-buttons {
+  animation-delay: 0.5s;
+}
+
+@media (max-width: 600px) {
+  .memory-six-page {
+    padding: 30px 14px;
+  }
+
+  .memory-six-card {
+    padding: 14px;
+  }
+
+  .memory-six-photo-frame img {
+    width: 100%;
+  }
+
+  .memory-six-story {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+  .memory-six-love-note {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+  }
+
+  .memory-six-button {
+    max-width: 100%;
+    padding: 12px 22px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .memory-six-label,
+  .memory-six-page h1,
+  .memory-six-card,
+  .memory-six-buttons {
+    animation: none;
+  }
+}

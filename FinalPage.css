@@ -1,0 +1,47 @@
+
+.final-label {
+  color: #ece6e8;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+}
+
+.final-divider {
+  margin: 22px 0;
+  color: #f4edee;
+  letter-spacing: 6px;
+}
+
+.final-story {
+  color: #f1e2e7;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.05rem;
+  line-height: 1.9;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.final-love {
+  color: #f3eef0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15rem;
+  font-weight: bold;
+  line-height: 1.8;
+  margin-top: 28px;
+}
+
+.final-signature {
+  color: #bb355f;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-top: 22px;
+}
+
+.final-hearts {
+  color: #f4f0f0;
+  font-size: 1.3rem;
+  letter-spacing: 6px;
+  margin-top: 25px;
+}
